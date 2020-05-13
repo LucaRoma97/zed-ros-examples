@@ -90,7 +90,7 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
       Name: Camera Model
-      Robot Description: /zed/zed_description
+      Robot Description: /zed2/zed_description
       TF Prefix: ""
       Update Interval: 0
       Value: true
@@ -180,7 +180,7 @@ Visualization Manager:
     - Class: rviz/Camera
       Enabled: true
       Image Rendering: background and overlay
-      Image Topic: /zed/zed_node/left/image_rect_color
+      Image Topic: /zed/zed2/zed_node/left/image_rect_color
       Name: Left Camera
       Overlay Alpha: 0.25
       Queue Size: 1
@@ -213,7 +213,7 @@ Visualization Manager:
       Value: true
     - Class: rviz/Marker
       Enabled: true
-      Marker Topic: /zed/visualization_marker
+      Marker Topic: /zed2/visualization_marker
       Name: Tags
       Namespaces:
         basic_shapes: true
@@ -221,7 +221,7 @@ Visualization Manager:
       Value: true
     - Class: rviz/Image
       Enabled: true
-      Image Topic: /zed/zed_node/left/image_rect_color
+      Image Topic: /zed/zed2/zed_node/left/image_rect_color
       Max Value: 1
       Median window: 5
       Min Value: 0
