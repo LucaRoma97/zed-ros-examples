@@ -1,0 +1,6 @@
+
+<launch>
+     <node name="distance_angle" pkg="zed_distance_angle" type="distance_angle" output="screen">
+     <remap from="pose_marker"  to="/zed/ar_pose_marker" />
+     </node>
+</launch>
