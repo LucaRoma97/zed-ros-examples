@@ -90,7 +90,7 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
       Name: Camera Model
-      Robot Description: /zed2/zed_description
+      Robot Description: zed2/zed2_description
       TF Prefix: ""
       Update Interval: 0
       Value: true
